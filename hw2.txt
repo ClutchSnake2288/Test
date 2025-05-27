@@ -1,0 +1,2 @@
+1. Настроить css по своему вкусу;
+2. Прочитать, что такое пропсы https://ru.reactjs.org/docs/components-and-props.htmll
