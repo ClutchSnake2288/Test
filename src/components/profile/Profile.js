@@ -6,16 +6,16 @@ import ava from './/img/avatar.jpg'
 import Posts from './posts/Posts'
 
 
-function Profile() {
+function Profile(props) {
     return (
         <div className='profile'>
             <div className="me"> 
                 <img src={ava} alt='profile mini photo'/>
                 <p>
-                    Ryan Reynolds
+                    {props.name}
                 </p>
             </div>
-            <Posts/>
+            <Posts message={props.message}/>
         </div>
     )
 }
